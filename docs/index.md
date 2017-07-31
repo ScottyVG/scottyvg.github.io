@@ -1,4 +1,5 @@
-# Welcome to MkDocs
+# Scott Van Gilder - Full Stack Web Developer
+This is a notes server for use Scott's personal/public use. If you were looking for Scott's personal website, visit [ScottVanGilder.com](http://scottvangilder.com).
 
 For full documentation visit [mkdocs.org](http://mkdocs.org).
 
