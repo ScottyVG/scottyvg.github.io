@@ -2,13 +2,13 @@
     "docs": [
         {
             "location": "/",
-            "text": "ScottyVG's Docs\n\n\nThis is a notes server for use Scotty's personal/public use. If you were looking for Scott's personal website, visit \nScottVanGilder.com\n.",
+            "text": "Scotty's Docs\n\n\nThis is a notes server for use Scotty's personal/public use. If you were looking for Scott's personal website, visit \nScottVanGilder.com\n.",
             "title": "Home"
         },
         {
-            "location": "/#scottyvgs-docs",
+            "location": "/#scottys-docs",
             "text": "This is a notes server for use Scotty's personal/public use. If you were looking for Scott's personal website, visit  ScottVanGilder.com .",
-            "title": "ScottyVG's Docs"
+            "title": "Scotty's Docs"
         },
         {
             "location": "/web-dev/html/",
@@ -52,8 +52,13 @@
         },
         {
             "location": "/etc/mkdocs/",
-            "text": "For full documentation visit \nmkdocs.org\n.\n\n\nCommands\n\n\n\n\nmkdocs new [dir-name]\n - Create a new project.\n\n\nmkdocs serve\n - Start the live-reloading docs server.\n\n\nmkdocs build\n - Build the documentation site.\n\n\nmkdocs help\n - Print this help message.\n\n\n\n\nProject layout\n\n\nmkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.",
+            "text": "MK Docs\n\n\nFor full documentation visit \nmkdocs.org\n.\n\n\nCommands\n\n\n\n\nmkdocs new [dir-name]\n - Create a new project.\n\n\nmkdocs serve\n - Start the live-reloading docs server.\n\n\nmkdocs build\n - Build the documentation site.\n\n\nmkdocs help\n - Print this help message.\n\n\n\n\nProject layout\n\n\nmkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.",
             "title": "MkDocs"
+        },
+        {
+            "location": "/etc/mkdocs/#mk-docs",
+            "text": "For full documentation visit  mkdocs.org .",
+            "title": "MK Docs"
         },
         {
             "location": "/etc/mkdocs/#commands",
@@ -64,6 +69,101 @@
             "location": "/etc/mkdocs/#project-layout",
             "text": "mkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.",
             "title": "Project layout"
+        },
+        {
+            "location": "/etc/markdown-syntax/",
+            "text": "MARKDOWN SYNTAX\n\n\nMarkdown\n is a way to style text on the web. You control the display of the document; forma\u001fing words as bold or italic, adding images, and creating lists are just a few of the things we can do with Markdown. Mostly, Markdown is just regular text with a few non-alphabetic characters thrown in, like # or *.\n\n\nHEADERS\n\n\n# This is an h1 tag\n## This is an h2 tag\n###### This is an h6 tag\n\n\n\n\nThis is an h1 tag\n\n\nThis is an h2 tag\n\n\nThis is an h6 tag\n\n\nEMPHASIS\n\n\n*This text will be italic*\n_This will also be italic_\n**This text will be bold**\n__This will also be bold__\n*You **can** combine them*\n\n\n\n\nThis text will be italic\n\n\nThis will also be italic\n\n\nThis text will be bold\n\n\nThis will also be bold\n\n\nYou \ncan\n combine them\n\n\nBLOCKQUOTES\n\n\nAs Grace Hopper said:\n> I\u2019ve always been more interested\n> in the future than in the past.\n\n\n\n\nAs Grace Hopper said:\n\n\n\n\nI\u2019ve always been more interested\nin the future than in the past.\n\n\n\n\nLISTS\n\n\nUnordered\n\n\n* Item 1\n* Item 2\n * Item 2a\n * Item 2b\n\n\n\n\n\n\nItem 1\n\n\nItem 2\n\n\nItem 2a\n\n\nItem 2b\n\n\n\n\nOrdered\n\n\n1. Item 1\n2. Item 2\n3. Item 3\n * Item 3a\n * Item 3b\n\n\n\n\n\n\nItem 1\n\n\nItem 2\n\n\nItem 3\n\n\nItem 3a\n\n\nItem 3b\n\n\n\n\nIMAGES\n\n\n![GitHub Logo](/images/logo.png)\nFormat: ![Alt Text](url)\n\n\n\n\n\nFormat: \n\n\nLINKS\n\n\nhttp://github.com - automatic!\n[GitHub](http://github.com)\n\n\n\n\nhttp://github.com - automatic!\n\nGitHub\n\n\nBACKSLASH ESCAPES\n\n\nMarkdown allows you to use backslash escapes to generate literal characters which would otherwise have special meaning in Markdown\u2019s formatting syntax.\n\n\n\\*literal asterisks\\*\n\n\n\n\n*literal asterisks*\n\n\nMarkdown provides backslash escapes for the following characters:\n\\ backslash\n` backtick\n* asterisk\n_ underscore\n{} curly braces\n[] square brackets\n() parentheses\n# hash mark\n+ plus sign\n- minus sign (hyphen)\n. dot\n! exclamation mark\n\n\n\n\nGITHUB FLAVORED MARKDOWN\n\n\nGitHub.com uses its own version of the Markdown syntax, GFM, that provides an additional set of useful features, many of which make it easier to work with content on GitHub.com.\n\n\nUSERNAME @MENTIONS\n\n\nTyping an @ symbol, followed by a username, will notify that person to come and view the comment. This is called an \u201c@mention\u201d, because you\u2019re mentioning the individual. You can also @mention teams within an organization\n\n\nISSUE REFERENCES\n\n\nAny number that refers to an Issue or Pull Request will be automatically converted into a link.\n\n\n#1\ngithub-flavored-markdown#1\ndefunkt/github-flavored-markdown#1\n\n\n\n\nEMOJI\n\n\nTo see a list of every image github supports, check out www.emoji-cheat-sheet.com\n\n\nGitHub supports emoji!\n:+1: :sparkles: :camel: :tada:\n:rocket: :metal: :octocat: \n\n\n\n\nFENCED CODE BLOCKS\n\n\nMarkdown coverts text with four leading spaces into a code block; with GFM you can wrap your code with ``` to create a code block without the leading spaces. Add an optional language identifier and your code will get syntax highlighting.\n\n\nfunction test() {\n console.log(\"look ma\u2019, no spaces\");\n}\n\n\n\n\nfunction test() {\n console.log(\"look ma\u2019, no spaces\");\n}\n\n\n\n\nTASK LISTS\n\n\n- [x] this is a complete item\n- [ ] this is an incomplete item\n- [x] @mentions, #refs, [links](),\n**formatting**, and <del>tags</del>\nsupported\n- [x] list syntax required (any\nunordered or order\n\n\n\n\nTABLES\n\n\nYou can create tables by assembling a list of words and dividing them with hyphens - (for the first row), and then separating each column with a pipe | :\n\n\nFirst Header | Second Header\n------------ | -------------\nContent cell 1 | Content cell 2\nContent column 1 | Content column 2",
+            "title": "Markdown Syntax"
+        },
+        {
+            "location": "/etc/markdown-syntax/#markdown-syntax",
+            "text": "Markdown  is a way to style text on the web. You control the display of the document; forma\u001fing words as bold or italic, adding images, and creating lists are just a few of the things we can do with Markdown. Mostly, Markdown is just regular text with a few non-alphabetic characters thrown in, like # or *.",
+            "title": "MARKDOWN SYNTAX"
+        },
+        {
+            "location": "/etc/markdown-syntax/#headers",
+            "text": "# This is an h1 tag\n## This is an h2 tag\n###### This is an h6 tag",
+            "title": "HEADERS"
+        },
+        {
+            "location": "/etc/markdown-syntax/#this-is-an-h1-tag",
+            "text": "",
+            "title": "This is an h1 tag"
+        },
+        {
+            "location": "/etc/markdown-syntax/#this-is-an-h2-tag",
+            "text": "",
+            "title": "This is an h2 tag"
+        },
+        {
+            "location": "/etc/markdown-syntax/#this-is-an-h6-tag",
+            "text": "",
+            "title": "This is an h6 tag"
+        },
+        {
+            "location": "/etc/markdown-syntax/#emphasis",
+            "text": "*This text will be italic*\n_This will also be italic_\n**This text will be bold**\n__This will also be bold__\n*You **can** combine them*  This text will be italic  This will also be italic  This text will be bold  This will also be bold  You  can  combine them",
+            "title": "EMPHASIS"
+        },
+        {
+            "location": "/etc/markdown-syntax/#blockquotes",
+            "text": "As Grace Hopper said:\n> I\u2019ve always been more interested\n> in the future than in the past.  As Grace Hopper said:   I\u2019ve always been more interested\nin the future than in the past.",
+            "title": "BLOCKQUOTES"
+        },
+        {
+            "location": "/etc/markdown-syntax/#lists",
+            "text": "Unordered  * Item 1\n* Item 2\n * Item 2a\n * Item 2b   Item 1  Item 2  Item 2a  Item 2b   Ordered  1. Item 1\n2. Item 2\n3. Item 3\n * Item 3a\n * Item 3b   Item 1  Item 2  Item 3  Item 3a  Item 3b",
+            "title": "LISTS"
+        },
+        {
+            "location": "/etc/markdown-syntax/#images",
+            "text": "![GitHub Logo](/images/logo.png)\nFormat: ![Alt Text](url)  \nFormat:",
+            "title": "IMAGES"
+        },
+        {
+            "location": "/etc/markdown-syntax/#links",
+            "text": "http://github.com - automatic!\n[GitHub](http://github.com)  http://github.com - automatic! GitHub",
+            "title": "LINKS"
+        },
+        {
+            "location": "/etc/markdown-syntax/#backslash-escapes",
+            "text": "Markdown allows you to use backslash escapes to generate literal characters which would otherwise have special meaning in Markdown\u2019s formatting syntax.  \\*literal asterisks\\*  *literal asterisks*  Markdown provides backslash escapes for the following characters:\n\\ backslash\n` backtick\n* asterisk\n_ underscore\n{} curly braces\n[] square brackets\n() parentheses\n# hash mark\n+ plus sign\n- minus sign (hyphen)\n. dot\n! exclamation mark",
+            "title": "BACKSLASH ESCAPES"
+        },
+        {
+            "location": "/etc/markdown-syntax/#github-flavored-markdown",
+            "text": "GitHub.com uses its own version of the Markdown syntax, GFM, that provides an additional set of useful features, many of which make it easier to work with content on GitHub.com.",
+            "title": "GITHUB FLAVORED MARKDOWN"
+        },
+        {
+            "location": "/etc/markdown-syntax/#username-mentions",
+            "text": "Typing an @ symbol, followed by a username, will notify that person to come and view the comment. This is called an \u201c@mention\u201d, because you\u2019re mentioning the individual. You can also @mention teams within an organization",
+            "title": "USERNAME @MENTIONS"
+        },
+        {
+            "location": "/etc/markdown-syntax/#issue-references",
+            "text": "Any number that refers to an Issue or Pull Request will be automatically converted into a link.  #1\ngithub-flavored-markdown#1\ndefunkt/github-flavored-markdown#1",
+            "title": "ISSUE REFERENCES"
+        },
+        {
+            "location": "/etc/markdown-syntax/#emoji",
+            "text": "To see a list of every image github supports, check out www.emoji-cheat-sheet.com  GitHub supports emoji!\n:+1: :sparkles: :camel: :tada:\n:rocket: :metal: :octocat:",
+            "title": "EMOJI"
+        },
+        {
+            "location": "/etc/markdown-syntax/#fenced-code-blocks",
+            "text": "Markdown coverts text with four leading spaces into a code block; with GFM you can wrap your code with ``` to create a code block without the leading spaces. Add an optional language identifier and your code will get syntax highlighting.  function test() {\n console.log(\"look ma\u2019, no spaces\");\n}  function test() {\n console.log(\"look ma\u2019, no spaces\");\n}",
+            "title": "FENCED CODE BLOCKS"
+        },
+        {
+            "location": "/etc/markdown-syntax/#task-lists",
+            "text": "- [x] this is a complete item\n- [ ] this is an incomplete item\n- [x] @mentions, #refs, [links](),\n**formatting**, and <del>tags</del>\nsupported\n- [x] list syntax required (any\nunordered or order",
+            "title": "TASK LISTS"
+        },
+        {
+            "location": "/etc/markdown-syntax/#tables",
+            "text": "You can create tables by assembling a list of words and dividing them with hyphens - (for the first row), and then separating each column with a pipe | :  First Header | Second Header\n------------ | -------------\nContent cell 1 | Content cell 2\nContent column 1 | Content column 2",
+            "title": "TABLES"
         }
     ]
 }

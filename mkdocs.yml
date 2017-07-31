@@ -1,4 +1,4 @@
-site_name: ScottyVG Docs
+site_name: Scotty-Docs
 pages:
 - Home: 'index.md'
 - Web Dev:
@@ -9,4 +9,5 @@ pages:
     - 'Bash': 'bash/bash.md'
 - ETC:
     - 'MkDocs': 'etc/mkdocs.md'
+    - 'Markdown Syntax': 'etc/markdown-syntax.md'
 # theme: readthedocs
