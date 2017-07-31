@@ -1,5 +1,12 @@
-site_name: ScottyVG Notes
+site_name: ScottyVG Docs
 pages:
-    - Home: index.md
-    - About: about.md
+- Home: 'index.md'
+- Web Dev:
+    - 'HTML': 'web-dev/html.md'
+    - 'CSS': 'web-dev/css.md'
+    - 'JavaScript': 'web-dev/javascript.md'
+- Bash:
+    - 'Bash': 'bash/bash.md'
+- ETC:
+    - 'MkDocs': 'etc/mkdocs.md'
 # theme: readthedocs

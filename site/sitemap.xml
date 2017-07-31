@@ -10,11 +10,45 @@
     
 
     
+        
     <url>
-     <loc>/about/</loc>
+     <loc>/web-dev/html/</loc>
      <lastmod>2017-07-31</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
+    <url>
+     <loc>/web-dev/css/</loc>
+     <lastmod>2017-07-31</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/web-dev/javascript/</loc>
+     <lastmod>2017-07-31</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>/bash/bash/</loc>
+     <lastmod>2017-07-31</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>/etc/mkdocs/</loc>
+     <lastmod>2017-07-31</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
     
 
 </urlset>
